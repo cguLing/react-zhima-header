@@ -1,0 +1,33 @@
+{
+  "name": "react-zhima-components",
+  "version": "1.0.1",
+  "main": "lib/bundle.js'",
+  "author": "taoyl<taoyl@rd.netease.com>",
+  "license": "MIT",
+  "description": "zhima-header react version",
+  "keywords": [
+    "zhima"
+  ],
+  "scripts": {
+    "build": "yarn run rollup -c",
+    "start": "yarn run rollup -c -w"
+  },  
+  "publishConfig": {
+    "registry": "https://nexus3.corp.youdao.com/repository/npm-private/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.corp.youdao.com/components1/react-zhima.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "@emotion/babel-preset-css-prop": "^11.10.0",
+    "@emotion/core": "^11.0.0",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "dependencies": {
+    "rollup": "1.31.1"
+  }
+}
