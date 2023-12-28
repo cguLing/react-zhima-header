@@ -2,7 +2,7 @@
   "name": "react-zhima-components",
   "version": "1.0.1",
   "main": "lib/bundle.js'",
-  "author": "taoyl<taoyl@rd.netease.com>",
+  "author": "cguling<1587765450@qq.com>",
   "license": "MIT",
   "description": "zhima-header react version",
   "keywords": [
@@ -13,11 +13,11 @@
     "start": "yarn run rollup -c -w"
   },  
   "publishConfig": {
-    "registry": "https://nexus3.corp.youdao.com/repository/npm-private/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.corp.youdao.com/components1/react-zhima.git"
+    "url": "https://github.com/cguLing/react-zhima-header.git"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
